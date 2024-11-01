@@ -10,6 +10,7 @@
                     <th>Dobiček ($M)</th>
                     <th>Sredstva ($M)</th>
                     <th>Št. zaposlenih</th>
+                    <th>Operacije</th>
                 </tr>
             </thead>
             <tbody>
@@ -20,6 +21,10 @@
                     <td>{{ company.dobicek }}</td>
                     <td>{{ company.sredstva }}</td>
                     <td>{{ company.stZaposlenih }}</td>
+                    <td>
+                        <button class="btn btn-warning btn-sm" style="margin-right: 10px;">Posodobi</button>
+                        <button class="btn btn-danger btn-sm">Izbriši</button>
+                    </td>
                 </tr>
             </tbody>
         </table>
